@@ -1572,6 +1572,11 @@ section,
   object-position: center;
 }
 
+.team .member .pic.pic-medium img {
+  width: min(468px);
+  margin: 0 auto;
+}
+
 .team .member .member-info {
   background-color: var(--surface-color);
   color: color-mix(in srgb, var(--default-color), transparent 20%);
